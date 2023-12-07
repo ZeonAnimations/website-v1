@@ -1,4 +1,4 @@
-body {
+.body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -55,22 +55,22 @@ body {
     margin: 0 auto;
 }
 
-header {
+.header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
-header h1 {
+.header h1 {
     margin: 0;
 }
 
-header p {
+.header p {
     margin: 5px 0 0;
 }
 
-section {
+.section {
     padding: 50px 0;
 }
 
@@ -81,16 +81,16 @@ section {
     background-color: #f4f4f4;
 }
 
-section h2 {
+.section h2 {
     text-align: center;
 }
 
-ul {
+.ul {
     list-style: none;
     padding: 0;
 }
 
-ul li {
+.ul li {
     display: inline-block;
     margin: 0 10px;
 }
@@ -99,7 +99,7 @@ ul li {
     margin: 20px 0;
 }
 
-footer {
+.footer {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -138,4 +138,20 @@ footer {
 
 .menu-bar .social-icons {
     margin-left: auto;
+}
+
+.pf1 {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+
+.pf2 {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
 }
