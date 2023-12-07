@@ -1,9 +1,10 @@
 .body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    background-color: #f5f5f5;
 }
 
 .background {
@@ -21,7 +22,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
 
@@ -40,7 +42,7 @@
 
 .menu-bar a {
     text-decoration: none;
-    color: #fff;
+    color: #333;
     font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
@@ -53,6 +55,21 @@
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+.container p {
+    font-size: 18px;
+    color: #666;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
 .header {
@@ -78,11 +95,13 @@
 .skills,
 .projects,
 .contact {
-    background-color: #f4f4f4;
+    background-color: white;
+    background-blend-mode: overlay;
 }
 
 .section h2 {
     text-align: center;
+    color: #333;
 }
 
 .ul {
@@ -97,13 +116,21 @@
 
 .project {
     margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
 }
 
 .footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -132,6 +159,14 @@
     padding: 0;
 }
 
+.menu-bar .menu-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
 .menu-bar .menu-items li {
     margin: 0 20px;
 }
@@ -154,4 +189,26 @@
     margin: auto;
     padding: auto;
     justify-content: center;
+}
+
+.menu-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.menu-bar .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-bar .menu-toggle span {
+    background-color: #333;
+    height: 5px;
+    width: 30px;
+    margin: 6px 0;
+    display: block;
+    transition: 0.3s;
 }
