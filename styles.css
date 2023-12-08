@@ -100,7 +100,7 @@
 .skills,
 .projects,
 .contact {
-    padding-top: 52px;
+    padding-top: 400px;
     background-blend-mode: overlay;
 }
 
@@ -152,6 +152,18 @@
 
 .menu-bar .social-icons {
     margin-left: auto;
+}
+
+.pf1,
+.pf2,
+.pf3 {
+    border-style: none;
+    border-radius: 80%;
+}
+
+.pf3 {
+    height: 50px;
+    width: 50px;
 }
 
 .menu-bar .social-icons a {
