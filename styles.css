@@ -22,7 +22,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(97, 97, 97, 0.9); /* White translucent background */
+    background-color: rgba(171, 210, 255, 0.9); /* White translucent background */
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     backdrop-filter: blur(50px);
@@ -43,7 +43,7 @@
 
 .menu-bar a {
     text-decoration: none;
-    color: #333;
+    color: #2c2c2c;
     font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
@@ -213,7 +213,7 @@
 }
 
 .menu-bar .menu-toggle span {
-    background-color: #333;
+    background-color: #525252;
     height: 5px;
     width: 30px;
     margin: 6px 0;
